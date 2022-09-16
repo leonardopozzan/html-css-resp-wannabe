@@ -144,7 +144,7 @@ img {
         flex-direction: column;
     }
     .card{
-        margin-bottom: 4em;
+        margin-bottom: 4rem;
     }
     .lessons .col{
         width: 100%;
@@ -154,7 +154,7 @@ img {
     }
     .why-us .col-left {
         width: 100%;
-        margin-bottom: 2.5em;
+        margin-bottom: 2.5rem;
     }
     .why-us .col-right {
         width: 100%;
@@ -163,10 +163,17 @@ img {
         margin-bottom: 0;
     }
     .why-us{
-        padding-top: 3em;
-        padding-bottom: 3em;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         margin-bottom: 0;
         background-color: #222;
+    }
+    .col {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .text-center{
+        padding: 0 2rem;
     }
  } 
  @media screen and (min-width: 768px) and (max-width:1160px){
